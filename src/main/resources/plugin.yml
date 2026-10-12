@@ -1,0 +1,16 @@
+name: NixScoreboard
+version: '${project.version}'
+main: com.nix.nixscoreboard.NixScoreboard
+api-version: '1.21'
+author: Nix
+description: Configurable sidebar scoreboard
+
+commands:
+  nixscoreboard:
+    description: Reload NixScoreboard
+    usage: /nixscoreboard reload
+    permission: nixscoreboard.admin
+
+permissions:
+  nixscoreboard.admin:
+    default: op

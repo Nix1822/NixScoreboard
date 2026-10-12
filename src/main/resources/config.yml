@@ -1,0 +1,7 @@
+# Placeholders: %player%  %online%  %max%  %ping%
+title: "&6&lMaghrebSMP"
+
+lines:
+  - "&7Player: &f%player%"
+  - "&7Online: &f%online%&7/&f%max%"
+  - "&7Ping: &f%ping%ms"
